@@ -3,9 +3,9 @@ window.addEventListener('scroll', function () {
 	scroll.classList.toggle('active', window.scrollY > 500)
 })
 
-document.querySelector('#btn-upper').addEventListener('click', function () {
+function func(){
 	window.scrollTo({
 		top: 0,
 		behavior: 'smooth',
 	})
-})
+}
